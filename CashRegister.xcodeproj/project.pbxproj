@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C778FA9248C1F6E0066C084 /* CashRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C778FA8248C1F6E0066C084 /* CashRegisterTests.swift */; };
+		0C778FAF248C1F9E0066C084 /* CashRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C778FAE248C1F9E0066C084 /* CashRegister.swift */; };
+		0C778FB0248C1FD20066C084 /* CashRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C778FAE248C1F9E0066C084 /* CashRegister.swift */; };
+		0C778FB2248C21B90066C084 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C778FB1248C21B90066C084 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C778F96248C1EF40066C084 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C778F98248C1EF40066C084 /* CashRegister */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CashRegister; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C778FA6248C1F6E0066C084 /* CashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C778FA8248C1F6E0066C084 /* CashRegisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegisterTests.swift; sourceTree = "<group>"; };
+		0C778FAA248C1F6E0066C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C778FAE248C1F9E0066C084 /* CashRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegister.swift; sourceTree = "<group>"; };
+		0C778FB1248C21B90066C084 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C778F95248C1EF40066C084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C778FA3248C1F6E0066C084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C778F8F248C1EF40066C084 = {
+			isa = PBXGroup;
+			children = (
+				0C778F9A248C1EF40066C084 /* CashRegister */,
+				0C778FA7248C1F6E0066C084 /* CashRegisterTests */,
+				0C778F99248C1EF40066C084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C778F99248C1EF40066C084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C778F98248C1EF40066C084 /* CashRegister */,
+				0C778FA6248C1F6E0066C084 /* CashRegisterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C778F9A248C1EF40066C084 /* CashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				0C778FAE248C1F9E0066C084 /* CashRegister.swift */,
+				0C778FB1248C21B90066C084 /* main.swift */,
+			);
+			path = CashRegister;
+			sourceTree = "<group>";
+		};
+		0C778FA7248C1F6E0066C084 /* CashRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C778FA8248C1F6E0066C084 /* CashRegisterTests.swift */,
+				0C778FAA248C1F6E0066C084 /* Info.plist */,
+			);
+			path = CashRegisterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C778F97248C1EF40066C084 /* CashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C778F9F248C1EF40066C084 /* Build configuration list for PBXNativeTarget "CashRegister" */;
+			buildPhases = (
+				0C778F94248C1EF40066C084 /* Sources */,
+				0C778F95248C1EF40066C084 /* Frameworks */,
+				0C778F96248C1EF40066C084 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashRegister;
+			productName = CashRegister;
+			productReference = 0C778F98248C1EF40066C084 /* CashRegister */;
+			productType = "com.apple.product-type.tool";
+		};
+		0C778FA5248C1F6E0066C084 /* CashRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C778FAB248C1F6E0066C084 /* Build configuration list for PBXNativeTarget "CashRegisterTests" */;
+			buildPhases = (
+				0C778FA2248C1F6E0066C084 /* Sources */,
+				0C778FA3248C1F6E0066C084 /* Frameworks */,
+				0C778FA4248C1F6E0066C084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashRegisterTests;
+			productName = CashRegisterTests;
+			productReference = 0C778FA6248C1F6E0066C084 /* CashRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C778F90248C1EF40066C084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mauro Gonzalez";
+				TargetAttributes = {
+					0C778F97248C1EF40066C084 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0C778FA5248C1F6E0066C084 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C778F93248C1EF40066C084 /* Build configuration list for PBXProject "CashRegister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C778F8F248C1EF40066C084;
+			productRefGroup = 0C778F99248C1EF40066C084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C778F97248C1EF40066C084 /* CashRegister */,
+				0C778FA5248C1F6E0066C084 /* CashRegisterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C778FA4248C1F6E0066C084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C778F94248C1EF40066C084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C778FB2248C21B90066C084 /* main.swift in Sources */,
+				0C778FAF248C1F9E0066C084 /* CashRegister.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C778FA2248C1F6E0066C084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C778FA9248C1F6E0066C084 /* CashRegisterTests.swift in Sources */,
+				0C778FB0248C1FD20066C084 /* CashRegister.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C778F9D248C1EF40066C084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C778F9E248C1EF40066C084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0C778FA0248C1EF40066C084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY33TK4JQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C778FA1248C1EF40066C084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY33TK4JQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C778FAC248C1F6E0066C084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CY33TK4JQ8;
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalez.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C778FAD248C1F6E0066C084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CY33TK4JQ8;
+				INFOPLIST_FILE = CashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonzalez.CashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C778F93248C1EF40066C084 /* Build configuration list for PBXProject "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C778F9D248C1EF40066C084 /* Debug */,
+				0C778F9E248C1EF40066C084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C778F9F248C1EF40066C084 /* Build configuration list for PBXNativeTarget "CashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C778FA0248C1EF40066C084 /* Debug */,
+				0C778FA1248C1EF40066C084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C778FAB248C1F6E0066C084 /* Build configuration list for PBXNativeTarget "CashRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C778FAC248C1F6E0066C084 /* Debug */,
+				0C778FAD248C1F6E0066C084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C778F90248C1EF40066C084 /* Project object */;
+}
